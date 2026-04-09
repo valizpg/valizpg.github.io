@@ -1,0 +1,42 @@
+{
+  "siteTitle": "朱天健 · Davy Zhu",
+  "siteDescription": "朱天健（Davy Zhu）的个人主页 — 上海交通大学，联系邮箱见站内。",
+  "name": "朱天健（Davy Zhu）",
+  "role": "Developer · Builder · Curious mind",
+  "heroLead": "davyz2004@sjtu.edu.cn",
+  "avatarInitials": "DZ",
+  "aboutTitle": "关于我",
+  "aboutBody": "热爱 Web 与工具链，关注性能与体验。本站使用 Vite + TypeScript 构建，部署在 GitHub Pages，采用玻璃拟态与 Bento 布局，便于持续扩展内容与区块。",
+  "statusLabel": "当前状态",
+  "statusText": "迭代个人主页与课程、业余项目",
+  "skillsTitle": "技术栈",
+  "skills": [
+    "TypeScript",
+    "Vite",
+    "Web APIs",
+    "GitHub Actions",
+    "CSS Grid",
+    "Responsive UI"
+  ],
+  "bentoNoteTitle": "可扩展",
+  "bentoNoteBody": "区块独立、数据集中；需要博客或多语言时，可在此结构上继续演进。",
+  "projectsTitle": "精选项目",
+  "projectsLead": "以下为公开仓库与演示链接，后续会持续补充。",
+  "projects": [
+    {
+      "title": "个人主页",
+      "description": "本站点源码：Vite 单页、GitHub Actions 部署至 GitHub Pages。",
+      "tags": ["Vite", "GitHub Pages", "TypeScript"],
+      "href": "https://valizpg.github.io",
+      "sourceHref": "https://github.com/valizpg/valizpg.github.io"
+    }
+  ],
+  "contactTitle": "联系",
+  "email": "davyz2004@sjtu.edu.cn",
+  "primaryCta": { "label": "查看作品", "href": "#projects" },
+  "secondaryCta": { "label": "GitHub", "href": "https://github.com/valizpg" },
+  "social": [
+    { "label": "GitHub", "href": "https://github.com/valizpg", "icon": "GH" },
+    { "label": "Email", "href": "mailto:davyz2004@sjtu.edu.cn", "icon": "@" }
+  ]
+}

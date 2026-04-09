@@ -9,6 +9,11 @@ import { initRevealMotion } from './utils/motion.ts'
 
 document.title = profile.siteTitle
 
+const metaDesc = document.querySelector<HTMLMetaElement>('meta[name="description"]')
+if (metaDesc) {
+  metaDesc.content = profile.siteDescription
+}
+
 const app = document.querySelector<HTMLDivElement>('#app')!
 app.innerHTML = `
   <div class="page">

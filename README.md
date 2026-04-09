@@ -18,7 +18,7 @@ npm run preview
 
 ## 修改内容
 
-编辑 [`src/data/profile.ts`](src/data/profile.ts) 更新文案、链接与项目列表。
+**个人文案、链接与项目列表**请只编辑 [`src/data/profile.json`](src/data/profile.json)。构建时会打包进静态页面；类型定义见同目录 [`src/data/profile.ts`](src/data/profile.ts)（一般无需改动）。
 
 ## 部署
 
