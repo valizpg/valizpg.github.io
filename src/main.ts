@@ -25,6 +25,36 @@ function applySeo(locale: LocaleCode): void {
   document.documentElement.lang = locale === 'zh' ? 'zh-CN' : 'en'
 }
 
+function initHeroAvatarFallback(root: ParentNode): void {
+  const avatars = root.querySelectorAll<HTMLElement>('[data-avatar-shell]')
+  avatars.forEach((avatar) => {
+    const img = avatar.querySelector<HTMLImageElement>('[data-avatar-image]')
+    const fallback = avatar.querySelector<HTMLElement>('[data-avatar-fallback]')
+    if (!img || !fallback) return
+
+    const showFallback = (): void => {
+      avatar.dataset.avatarState = 'fallback'
+    }
+
+    const showImage = (): void => {
+      avatar.dataset.avatarState = 'image'
+    }
+
+    img.addEventListener('load', showImage, { once: true })
+    img.addEventListener('error', showFallback, { once: true })
+
+    if (img.complete) {
+      if (img.naturalWidth > 0) {
+        showImage()
+      } else {
+        showFallback()
+      }
+    } else {
+      showFallback()
+    }
+  })
+}
+
 function renderApp(locale: LocaleCode): void {
   const p = getProfileView(locale)
   applySeo(locale)
@@ -45,6 +75,7 @@ function renderApp(locale: LocaleCode): void {
   </div>
 `
 
+  initHeroAvatarFallback(app)
   initRevealMotion(app)
 }
 

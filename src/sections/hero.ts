@@ -1,6 +1,8 @@
 import type { ProfileView } from '../data/profile'
 import { escapeHtml } from '../utils/html'
 
+const HERO_AVATAR_SRC = '/profile-photo.jpg'
+
 export function renderHero(p: ProfileView): string {
   const leadLines = escapeHtml(p.heroLead).split('\n')
   const leadHtml = leadLines.map((line) => `<span class="hero__lead-line">${line}</span>`).join('<br />')
@@ -9,8 +11,16 @@ export function renderHero(p: ProfileView): string {
   <section class="hero section" id="hero" aria-labelledby="hero-title">
     <div class="hero__glow" aria-hidden="true"></div>
     <div class="hero__layout" data-reveal>
-      <div class="hero__avatar glass" aria-hidden="true">
-        <span class="hero__avatar-text">${escapeHtml(p.avatarInitials)}</span>
+      <div class="hero__avatar glass" aria-hidden="true" data-avatar-shell>
+        <img
+          class="hero__avatar-image"
+          src="${HERO_AVATAR_SRC}"
+          alt=""
+          loading="eager"
+          decoding="async"
+          data-avatar-image
+        />
+        <span class="hero__avatar-text" data-avatar-fallback>${escapeHtml(p.avatarInitials)}</span>
       </div>
       <div class="hero__copy">
         <p class="eyebrow">${escapeHtml(p.heroEyebrow)}</p>
