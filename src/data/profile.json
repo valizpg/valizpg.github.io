@@ -7,15 +7,15 @@
       "siteTitle": "朱天健 · Davy Zhu",
       "siteDescription": "朱天健（Davy Zhu）— 上海交通大学，量化与数据方向；个人主页含中英文简历摘要。",
       "name": "朱天健（Davy Zhu）",
-      "heroEyebrow": "个人主页 · 量化研究实习 | 高频数据处理 | 因子与回测 | Python / C++ / Linux",
-      "role": "量化研究实习 | 高频数据处理 | 因子构建与回测",
+      "heroEyebrow": "个人主页 · 量化研究实习生（Quant Researcher）| 高频数据处理 | 因子与回测 | Python / C++ / Linux",
+      "role": "量化研究实习生（Quant Researcher）| 高频数据处理 | 因子构建与回测",
       "heroLead": "davyz2004@sjtu.edu.cn\n+86 177-1511-0096",
       "avatarInitials": "DZ",
       "aboutTitle": "关于我",
       "aboutSectionLead": "Bento · 关于、状态与技能",
       "aboutBody": "上海交通大学本科生，主修英语（语言学），辅修经济学（GPA 3.8/4.3）。关注量化研究、Level-1 级高频数据、因子构建与回测，以及机器学习在金融文本与信号上的应用。",
       "statusLabel": "当前状态",
-      "statusText": "枫华集团 · 量化数据实习生（2025.10 — 至今）",
+      "statusText": "枫华集团 · 量化研究实习生（Quant Researcher）（2025.10 — 至今）",
       "skillsTitle": "技术技能",
       "skillCategories": [
         {
@@ -58,7 +58,7 @@
         {
           "company": "枫华集团",
           "location": "上海",
-          "role": "量化数据实习生",
+          "role": "量化研究实习生（Quant Researcher）",
           "period": "2025.10 — 至今",
           "bullets": [
             "搭建 Python/SQL ETL，处理内外盘 Level-1 OHLCV 期货高频数据，设计自动化异常检测规则，为研究提供稳定输入。",
@@ -136,15 +136,15 @@
       "siteTitle": "Tianjian (Davy) Zhu · Portfolio",
       "siteDescription": "ZHU Tianjian (Davy Zhu) — Shanghai Jiao Tong University; quantitative research & data; bilingual CV highlights.",
       "name": "ZHU Tianjian",
-      "heroEyebrow": "Portfolio · Quantitative Research · High-frequency Data · Factors & Backtesting",
-      "role": "Quantitative Research · Data · Python / C++ / Linux",
+      "heroEyebrow": "Portfolio · Quant Researcher · High-frequency Data · Factors & Backtesting",
+      "role": "Quant Researcher · Data · Python / C++ / Linux",
       "heroLead": "davyz2004@sjtu.edu.cn\n+86 177-1511-0096",
       "avatarInitials": "DZ",
       "aboutTitle": "About",
       "aboutSectionLead": "Bento · About, status & skills",
       "aboutBody": "Undergraduate at Shanghai Jiao Tong University. Major: English (Linguistics); Minor: Economics (GPA 3.8/4.3). Focus on quantitative research, Level-1 intraday data, factor construction & backtesting, and ML for financial text and signals.",
       "statusLabel": "Current",
-      "statusText": "Sino-Canada Investment Group · Quantitative Research Intern (Oct 2025 — Present)",
+      "statusText": "Sino-Canada Investment Group · Quant Researcher (Oct 2025 — Present)",
       "skillsTitle": "Skills",
       "skillCategories": [
         {
@@ -183,7 +183,7 @@
         {
           "company": "Sino-Canada Investment Group Inc.",
           "location": "Shanghai, China",
-          "role": "Quantitative Research Intern",
+          "role": "Quant Researcher",
           "period": "October 2025 – Present",
           "bullets": [
             "Intraday Data Infrastructure: Built Python/SQL ETL pipelines for Level-1 OHLCV futures data; automated anomaly detection for RL and volatility models.",
