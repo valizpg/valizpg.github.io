@@ -1,7 +1,7 @@
-import type { Profile } from '../data/profile'
+import type { ProfileView } from '../data/profile'
 import { escapeHtml } from '../utils/html'
 
-export function renderHero(p: Profile): string {
+export function renderHero(p: ProfileView): string {
   const leadLines = escapeHtml(p.heroLead).split('\n')
   const leadHtml = leadLines.map((line) => `<span class="hero__lead-line">${line}</span>`).join('<br />')
 
@@ -13,7 +13,7 @@ export function renderHero(p: Profile): string {
         <span class="hero__avatar-text">${escapeHtml(p.avatarInitials)}</span>
       </div>
       <div class="hero__copy">
-        <p class="eyebrow">Portfolio · ${escapeHtml(p.role)}</p>
+        <p class="eyebrow">${escapeHtml(p.heroEyebrow)}</p>
         <h1 id="hero-title" class="hero__title gradient-text">${escapeHtml(p.name)}</h1>
         <p class="hero__lead">${leadHtml}</p>
         <div class="hero__actions">

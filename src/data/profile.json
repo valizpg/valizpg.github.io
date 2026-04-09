@@ -1,42 +1,261 @@
 {
-  "siteTitle": "朱天健 · Davy Zhu",
-  "siteDescription": "朱天健（Davy Zhu）的个人主页 — 上海交通大学，联系邮箱见站内。",
-  "name": "朱天健（Davy Zhu）",
-  "role": "Developer · Builder · Curious mind",
-  "heroLead": "davyz2004@sjtu.edu.cn",
-  "avatarInitials": "DZ",
-  "aboutTitle": "关于我",
-  "aboutBody": "热爱 Web 与工具链，关注性能与体验。本站使用 Vite + TypeScript 构建，部署在 GitHub Pages，采用玻璃拟态与 Bento 布局，便于持续扩展内容与区块。",
-  "statusLabel": "当前状态",
-  "statusText": "迭代个人主页与课程、业余项目",
-  "skillsTitle": "技术栈",
-  "skills": [
-    "TypeScript",
-    "Vite",
-    "Web APIs",
-    "GitHub Actions",
-    "CSS Grid",
-    "Responsive UI"
-  ],
-  "bentoNoteTitle": "可扩展",
-  "bentoNoteBody": "区块独立、数据集中；需要博客或多语言时，可在此结构上继续演进。",
-  "projectsTitle": "精选项目",
-  "projectsLead": "以下为公开仓库与演示链接，后续会持续补充。",
-  "projects": [
-    {
-      "title": "个人主页",
-      "description": "本站点源码：Vite 单页、GitHub Actions 部署至 GitHub Pages。",
-      "tags": ["Vite", "GitHub Pages", "TypeScript"],
-      "href": "https://valizpg.github.io",
-      "sourceHref": "https://github.com/valizpg/valizpg.github.io"
-    }
-  ],
-  "contactTitle": "联系",
   "email": "davyz2004@sjtu.edu.cn",
-  "primaryCta": { "label": "查看作品", "href": "#projects" },
-  "secondaryCta": { "label": "GitHub", "href": "https://github.com/valizpg" },
-  "social": [
-    { "label": "GitHub", "href": "https://github.com/valizpg", "icon": "GH" },
-    { "label": "Email", "href": "mailto:davyz2004@sjtu.edu.cn", "icon": "@" }
-  ]
+  "phone": "+8617715110096",
+  "phoneDisplay": "+86 177-1511-0096",
+  "locales": {
+    "zh": {
+      "siteTitle": "朱天健 · Davy Zhu",
+      "siteDescription": "朱天健（Davy Zhu）— 上海交通大学，量化与数据方向；个人主页含中英文简历摘要。",
+      "name": "朱天健（Davy Zhu）",
+      "heroEyebrow": "个人主页 · 量化研究实习 | 高频数据处理 | 因子与回测 | Python / C++ / Linux",
+      "role": "量化研究实习 | 高频数据处理 | 因子构建与回测",
+      "heroLead": "davyz2004@sjtu.edu.cn\n+86 177-1511-0096",
+      "avatarInitials": "DZ",
+      "aboutTitle": "关于我",
+      "aboutSectionLead": "Bento · 关于、状态与技能",
+      "aboutBody": "上海交通大学本科生，主修英语（语言学），辅修经济学（GPA 3.8/4.3）。关注量化研究、Level-1 级高频数据、因子构建与回测，以及机器学习在金融文本与信号上的应用。",
+      "statusLabel": "当前状态",
+      "statusText": "枫华集团 · 量化数据实习生（2025.10 — 至今）",
+      "skillsTitle": "技术技能",
+      "skillCategories": [
+        {
+          "category": "编程与环境",
+          "items": "Python, C++, C, SQL；Linux/Bash, Git, Docker"
+        },
+        {
+          "category": "数据处理",
+          "items": "Pandas, NumPy, Polars, Databento；Level-1 期货高频与 A 股多源数据清洗、对齐与异常检测"
+        },
+        {
+          "category": "量化研究",
+          "items": "Fama-French 类因子、回测偏差控制、NautilusTrader, Hikyuu, Backtrader"
+        },
+        {
+          "category": "机器学习",
+          "items": "PyTorch, Scikit-learn；金融文本情感、LSTM 微调、大语言模型预处理"
+        },
+        {
+          "category": "语言",
+          "items": "中文（母语）、英语、法语（基础会话）"
+        }
+      ],
+      "bentoNoteTitle": "兴趣",
+      "bentoNoteBody": "交易、健身、台球、乒乓球、卡丁车等。",
+      "educationTitle": "教育背景",
+      "education": {
+        "institution": "上海交通大学",
+        "location": "上海",
+        "degreeLine": "主修：英语（语言学）｜辅修：经济学｜GPA：3.8 / 4.3",
+        "period": "2023.9 — 至今",
+        "highlights": [
+          "数理与统计：随机过程、回归分析、计量经济学、信用风险计量、概率统计、线性代数、微积分 I & II、商务统计学等",
+          "计算机与建模：机器学习、深度学习、大语言模型、算法原理、数据结构、C++、Python、MATLAB、区块链与数字货币等",
+          "经济与金融：公司金融、证券投资分析、中级微观/宏观经济学、货币金融学、会计学、经济学原理等"
+        ]
+      },
+      "experienceTitle": "实习经历",
+      "experiences": [
+        {
+          "company": "枫华集团",
+          "location": "上海",
+          "role": "量化数据实习生",
+          "period": "2025.10 — 至今",
+          "bullets": [
+            "搭建 Python/SQL ETL，处理内外盘 Level-1 OHLCV 期货高频数据，设计自动化异常检测规则，为研究提供稳定输入。",
+            "清洗整理 5000+ 只 A 股技术面与基本面数据，解决跨数据源时点对齐，降低中证 500/1000 等指数增强与多因子回测的前瞻性偏差。",
+            "构建 Fama-French 类因子数据集，预处理金融新闻文本，支持因子研究与基于大语言模型的情感分析。"
+          ]
+        },
+        {
+          "company": "中信证券股份有限公司",
+          "location": "北京",
+          "role": "投资银行部 — 装备制造行业组实习生",
+          "period": "2025.7 — 2025.8",
+          "bullets": [
+            "参与 A 股定增项目财务尽调，维护函证控制表，整理境外函证并核对回函差异。",
+            "独立完成低空经济、军工 AI、军用电子元器件等子行业研究与路演材料。"
+          ]
+        },
+        {
+          "company": "国泰海通证券股份有限公司（原国泰君安）",
+          "location": "上海",
+          "role": "投资银行部 — 新能源行业一部",
+          "period": "2024.6 — 2024.8",
+          "bullets": [
+            "参与 IPO 函证制作、收发与财务抽凭，核查勾稽与数据完整性。",
+            "使用 Choice、新浪财经、企查查等收集行业与公司数据，梳理新能源产业链与竞品分析。"
+          ]
+        }
+      ],
+      "academicTitle": "学术经历",
+      "academicExperiences": [
+        {
+          "title": "美国大学生数学建模竞赛（MCM）",
+          "role": "队长",
+          "period": "2024.2",
+          "bullets": [
+            "统筹里程碑与分工，按成员特长分配任务并跟进进度。",
+            "使用 Python（Matplotlib, NumPy）与 Origin 完成数据清洗、挖掘与可视化。",
+            "基于监督式 KNN 构建网球比赛进程预测模型，并合作撰写英文学术论文部分章节。"
+          ]
+        }
+      ],
+      "projectsTitle": "精选项目",
+      "projectsLead": "课程与公开作品摘录。",
+      "projects": [
+        {
+          "title": "个人主页",
+          "description": "本站点：Vite + TypeScript，GitHub Actions 部署至 GitHub Pages；支持中英文切换与简历摘要展示。",
+          "tags": ["Vite", "GitHub Pages", "TypeScript"],
+          "href": "https://valizpg.github.io",
+          "sourceHref": "https://github.com/valizpg/valizpg.github.io"
+        },
+        {
+          "title": "股吧评论情感分析与情绪因子验证",
+          "description": "以 Paddle Senta 为基线，自建标注数据集；融合词典与双向 LSTM 微调，准确率由约 66% 提升至约 86%；构建日度情绪指数并结合 AkShare 验证与市场波动的关联。",
+          "tags": ["Python", "LSTM", "NLP", "AkShare"],
+          "href": "",
+          "sourceHref": ""
+        }
+      ],
+      "contactTitle": "联系",
+      "primaryCta": { "label": "查看项目", "href": "#projects" },
+      "secondaryCta": { "label": "GitHub", "href": "https://github.com/valizpg" },
+      "social": [
+        { "label": "GitHub", "href": "https://github.com/valizpg", "icon": "GH" },
+        { "label": "邮箱", "href": "mailto:davyz2004@sjtu.edu.cn", "icon": "@" }
+      ],
+      "projectVisitLabel": "访问",
+      "projectSourceLabel": "源码",
+      "fineprintBuiltWith": "Vite · GitHub Pages",
+      "langSwitchZh": "中",
+      "langSwitchEn": "EN",
+      "navAriaLabel": "主导航"
+    },
+    "en": {
+      "siteTitle": "Tianjian (Davy) Zhu · Portfolio",
+      "siteDescription": "ZHU Tianjian (Davy Zhu) — Shanghai Jiao Tong University; quantitative research & data; bilingual CV highlights.",
+      "name": "ZHU Tianjian",
+      "heroEyebrow": "Portfolio · Quantitative Research · High-frequency Data · Factors & Backtesting",
+      "role": "Quantitative Research · Data · Python / C++ / Linux",
+      "heroLead": "davyz2004@sjtu.edu.cn\n+86 177-1511-0096",
+      "avatarInitials": "DZ",
+      "aboutTitle": "About",
+      "aboutSectionLead": "Bento · About, status & skills",
+      "aboutBody": "Undergraduate at Shanghai Jiao Tong University. Major: English (Linguistics); Minor: Economics (GPA 3.8/4.3). Focus on quantitative research, Level-1 intraday data, factor construction & backtesting, and ML for financial text and signals.",
+      "statusLabel": "Current",
+      "statusText": "Sino-Canada Investment Group · Quantitative Research Intern (Oct 2025 — Present)",
+      "skillsTitle": "Skills",
+      "skillCategories": [
+        {
+          "category": "Programming",
+          "items": "C++, Python, C, SQL"
+        },
+        {
+          "category": "Libraries & Frameworks",
+          "items": "PyTorch, Scikit-learn, Polars, Databento, NautilusTrader, Hikyuu, Backtrader, Pandas, NumPy"
+        },
+        {
+          "category": "Tools & Platforms",
+          "items": "Git, Linux/Bash, Docker, Wind Terminal"
+        },
+        {
+          "category": "Languages",
+          "items": "Chinese (Native), English, Conversational French"
+        }
+      ],
+      "bentoNoteTitle": "Interests",
+      "bentoNoteBody": "Trading, gym & fitness, billiards, ping-pong, go-karting.",
+      "educationTitle": "Education",
+      "education": {
+        "institution": "Shanghai Jiao Tong University",
+        "location": "Shanghai, China",
+        "degreeLine": "MAJOR: English (Linguistics), MINOR: Economics | GPA: 3.8 / 4.3",
+        "period": "September 2023 – Present",
+        "highlights": [
+          "Mathematics & Statistics: Stochastic Processes, Financial Mathematics, Regression Analysis, Econometrics, Probability & Statistics, Linear Algebra, Calculus I & II, Business Statistics",
+          "Computer Science & Modeling: Machine Learning, Deep Learning, Large Language Model, Algorithms, Data Structures, MATLAB Programming & Modeling, C++, Python, Blockchain & Digital Currency",
+          "Finance & Economics: Corporate Finance, Securities Analysis, Intermediate Microeconomics, Intermediate Macroeconomics, Money and Finance, Accounting, Principles of Economics"
+        ]
+      },
+      "experienceTitle": "Professional Experience",
+      "experiences": [
+        {
+          "company": "Sino-Canada Investment Group Inc.",
+          "location": "Shanghai, China",
+          "role": "Quantitative Research Intern",
+          "period": "October 2025 – Present",
+          "bullets": [
+            "Intraday Data Infrastructure: Built Python/SQL ETL pipelines for Level-1 OHLCV futures data; automated anomaly detection for RL and volatility models.",
+            "Equity Alpha Support: Fundamental data for 5,000+ A-share stocks; strict Point-in-Time alignment to prevent look-ahead bias in CSI 500/1000 index enhancement backtests.",
+            "Factor & Alternative Data: Fama-French-style datasets; pre-processed financial news for LLM-based sentiment analysis supporting signal generation."
+          ]
+        },
+        {
+          "company": "CITIC Securities",
+          "location": "Beijing, China",
+          "role": "Equity Research Summer Analyst",
+          "period": "July 2025 – August 2025",
+          "bullets": [
+            "Quantitative industry research on emerging tech (e.g. Low-Altitude Economy, Military AI) using Wind for data and benchmarking.",
+            "Market comparables and fundraising analysis for an A-share private placement; financial verification support for a Hong Kong IPO."
+          ]
+        },
+        {
+          "company": "Guotai Haitong Securities",
+          "location": "Shanghai, China",
+          "role": "Equity Research Summer Analyst",
+          "period": "June 2024 – August 2024",
+          "bullets": [
+            "Longitudinal analysis on 10-year A-share M&A data to assess regulatory changes on valuation and structuring.",
+            "Financial validation for IPO projects via Choice; reconciled sales and procurement discrepancies."
+          ]
+        }
+      ],
+      "academicTitle": "Academic Experience",
+      "academicExperiences": [
+        {
+          "title": "Mathematical Contest in Modeling",
+          "role": "Team Leader",
+          "period": "February 2024",
+          "bullets": [
+            "Led workflow: milestones, progress checks, and task delegation by member strengths.",
+            "Data cleaning, mining, and visualization with Python (Matplotlib, NumPy) and Origin.",
+            "Predictive model for tennis match progression (supervised KNN); co-authored sections of the final paper in English."
+          ]
+        }
+      ],
+      "projectsTitle": "Selected Projects",
+      "projectsLead": "Coursework and public work.",
+      "projects": [
+        {
+          "title": "Personal Portfolio Site",
+          "description": "This site: Vite + TypeScript, deployed via GitHub Actions; bilingual CV highlights.",
+          "tags": ["Vite", "GitHub Pages", "TypeScript"],
+          "href": "https://valizpg.github.io",
+          "sourceHref": "https://github.com/valizpg/valizpg.github.io"
+        },
+        {
+          "title": "Stock Forum Sentiment & Sentiment Factor",
+          "description": "Sentiment on forum comments; custom labeled dataset; Bi-LSTM fine-tuning; daily sentiment index validated with market data (AkShare).",
+          "tags": ["Python", "LSTM", "NLP", "AkShare"],
+          "href": "",
+          "sourceHref": ""
+        }
+      ],
+      "contactTitle": "Contact",
+      "primaryCta": { "label": "Projects", "href": "#projects" },
+      "secondaryCta": { "label": "GitHub", "href": "https://github.com/valizpg" },
+      "social": [
+        { "label": "GitHub", "href": "https://github.com/valizpg", "icon": "GH" },
+        { "label": "Email", "href": "mailto:davyz2004@sjtu.edu.cn", "icon": "@" }
+      ],
+      "projectVisitLabel": "Open",
+      "projectSourceLabel": "Source",
+      "fineprintBuiltWith": "Vite · GitHub Pages",
+      "langSwitchZh": "中",
+      "langSwitchEn": "EN",
+      "navAriaLabel": "Primary"
+    }
+  }
 }

@@ -1,15 +1,15 @@
-import type { Profile } from '../data/profile'
+import type { ProfileView } from '../data/profile'
 import { escapeHtml } from '../utils/html'
 
-export function renderProjects(p: Profile): string {
+export function renderProjects(p: ProfileView): string {
   const cards = p.projects
     .map((proj) => {
       const tags = proj.tags.map((t) => `<span class="project__tag">${escapeHtml(t)}</span>`).join('')
       const mainLink = proj.href
-        ? `<a class="project__link" href="${escapeHtml(proj.href)}" target="_blank" rel="noreferrer noopener">访问</a>`
+        ? `<a class="project__link" href="${escapeHtml(proj.href)}" target="_blank" rel="noreferrer noopener">${escapeHtml(p.projectVisitLabel)}</a>`
         : ''
       const srcLink = proj.sourceHref
-        ? `<a class="project__link project__link--muted" href="${escapeHtml(proj.sourceHref)}" target="_blank" rel="noreferrer noopener">源码</a>`
+        ? `<a class="project__link project__link--muted" href="${escapeHtml(proj.sourceHref)}" target="_blank" rel="noreferrer noopener">${escapeHtml(p.projectSourceLabel)}</a>`
         : ''
       const links = [mainLink, srcLink].filter(Boolean).join('')
 
@@ -22,7 +22,7 @@ export function renderProjects(p: Profile): string {
           <h3 class="project__title">${escapeHtml(proj.title)}</h3>
           <p class="project__desc">${escapeHtml(proj.description)}</p>
           <div class="project__tags">${tags}</div>
-          <div class="project__actions">${links}</div>
+          ${links ? `<div class="project__actions">${links}</div>` : ''}
         </div>
       </article>`
     })

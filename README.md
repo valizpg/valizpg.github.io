@@ -18,7 +18,7 @@ npm run preview
 
 ## 修改内容
 
-**个人文案、链接与项目列表**请只编辑 [`src/data/profile.json`](src/data/profile.json)。构建时会打包进静态页面；类型定义见同目录 [`src/data/profile.ts`](src/data/profile.ts)（一般无需改动）。
+**个人文案、链接与项目列表**请只编辑 [`src/data/profile.json`](src/data/profile.json)。根级字段含 `email`、`phone`；**中英文内容**分别在 `locales.zh` 与 `locales.en` 中维护（导航、教育、实习、学术、项目、技能等）。构建时打包进静态页面；类型定义见 [`src/data/profile.ts`](src/data/profile.ts)。语言偏好会写入浏览器 `localStorage`（`portfolio-locale`）；未设置时按浏览器语言在首次访问时选择中文或英文。
 
 ## 部署
 
