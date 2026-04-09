@@ -364,13 +364,11 @@ a:hover {
 
 .bento__card-title {
   margin: 0 0 10px;
-  font-size: 15px;
-  letter-spacing: -0.01em;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  font-weight: 720;
   font-size: 12px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  font-weight: 720;
 }
 
 .bento__card-body {
